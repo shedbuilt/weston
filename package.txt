@@ -1,0 +1,8 @@
+NAME=weston
+VERSION=5.0.0
+REVISION=1
+LICENSE=MIT
+SRC=https://wayland.freedesktop.org/releases/weston-5.0.0.tar.xz
+SRCMD5=752a04ce3c65af4884cfac4e57231bdb
+BUILDDEPS=pixman libdrm wayland wayland-protocols cairo libxkbcommon libinput mesa
+INSTALLDEPS=pixman libdrm wayland wayland-protocols cairo libxkbcommon libinput mesa
